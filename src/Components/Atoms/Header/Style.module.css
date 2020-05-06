@@ -1,0 +1,14 @@
+.header {
+    height: 44px;
+    width: 100%;
+    background-color: #EF3E42;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    height: 37.15px;
+    width: 38px;
+  }
