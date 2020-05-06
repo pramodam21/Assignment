@@ -1,0 +1,60 @@
+.container {
+    margin: 14px 9px 15px 16px;
+    padding: 10px;
+}
+
+.heading {
+    margin: 0;
+    color: #223136;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.headingWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subHeading {
+    color: #223136;
+    font-size: 12px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #49BB5C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    color: #898989;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 6px 0;
+}
+
+.split {
+    padding: 0 14px;
+}
+
+.buttonText {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+.infoContent {
+    padding: 0 7px;
+}
