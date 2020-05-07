@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    padding-left: 16px;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.split {
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid #DFDFDF;
+}

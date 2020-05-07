@@ -1,0 +1,15 @@
+.container {
+    padding: 0 13px;
+}
+
+.heading {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: -0.24px;
+  }
+
+  .description {
+    color: #4A4A4A;
+    font-size: 12px;
+    line-height: 21px;
+  }

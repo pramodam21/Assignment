@@ -3,7 +3,7 @@ import Style from "./Style.module.css";
 
 const PriceInfo = ({ heading, info }) => (
   <div className={Style.wrapper}>
-    <h3 className={Style.heading}>{heading}</h3>
+    <h4 className={Style.heading}>{heading}</h4>
     <span className={Style.info}>{info}</span>
   </div>
 );

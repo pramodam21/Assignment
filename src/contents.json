@@ -1,24 +1,26 @@
 {
-    "header" : {
-        "heading" : "McDonald’s",
-        "subHeading" : "Burger, Fast Food",
-        "status" : "Open",
-        "order" : "AED30 min order",
-        "time" : "25-30 mins"
+  "header": {
+    "heading": "McDonald’s",
+    "subHeading": "Burger, Fast Food",
+    "status": "Open",
+    "order": "AED30 min order",
+    "time": "25-30 mins"
+  },
+  "storeInfo": {
+    "heading": "McDonald’s",
+    "city": "Dubai Media City",
+    "info": "Burger, Fast Food"
+  },
+  "payInfo": [
+    {
+      "heading": "Average meal cost",
+      "info": "AED70"
     },
-    "storeInfo" : {
-        "heading" : "McDonald’s",
-        "city" : "Dubai Media City",
-        "info" : "Burger, Fast Food"
-    },
-    "payInfo" : [
-        {
-            "heading" : "Average meal cost",
-            "info" : "AED70"
-        },
-        {
-            "heading" : "Accepted Payment Methods",
-            "info" : "Cash and Cards accepeted"
-        }
-    ]
+    {
+      "heading": "Accepted Payment Methods",
+      "info": "Cash and Cards accepeted"
+    }
+  ],
+  "description": "Description",
+  "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet ante at risus mollis, ut rutrum arcu venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam nec erat suscipit, pretium quam eget, condimentum enim. Donec et ligula ut ante ornare porta. Suspendisse mollis eros vel dapibus feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet ante at risus mollis, ut rutrum arcu venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam nec erat suscipit, pretium quam eget, condimentum enim. Donec et ligula ut ante ornare porta. Suspendisse mollis eros vel dapibus feugiat."
 }
