@@ -8,13 +8,14 @@ import Scooter from "../../../assets/Images/icn_scooter.svg";
 import { Link } from "react-router-dom";
 import Button from "../../Atoms/StatusButton/Button";
 import Info from "../../Atoms/Info/Info";
+import CommonStyle from '../../../Css/common.module.css';
 
 const HeaderContent = () => (
   <div className={Style.container}>
     {Constants.header && (
       <div>
         <div className={Style.headingWrapper}>
-          <h3 className={Style.heading}>{Constants.header.heading}</h3>
+          <h3 className={CommonStyle.heading}>{Constants.header.heading}</h3>
           <Link to="/storeInfo">
             <img src={Right} alt="arrow" />
           </Link>

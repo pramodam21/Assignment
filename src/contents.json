@@ -5,5 +5,20 @@
         "status" : "Open",
         "order" : "AED30 min order",
         "time" : "25-30 mins"
-    }
+    },
+    "storeInfo" : {
+        "heading" : "McDonald’s",
+        "city" : "Dubai Media City",
+        "info" : "Burger, Fast Food"
+    },
+    "payInfo" : [
+        {
+            "heading" : "Average meal cost",
+            "info" : "AED70"
+        },
+        {
+            "heading" : "Accepted Payment Methods",
+            "info" : "Cash and Cards accepeted"
+        }
+    ]
 }

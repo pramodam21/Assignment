@@ -1,0 +1,12 @@
+.wrapper {
+    padding: 10px 15px 0 15px;
+}
+
+.city {
+    color: #898989;
+    font-size: 12px;
+}
+
+.dot {
+    padding: 0 10px;
+}
