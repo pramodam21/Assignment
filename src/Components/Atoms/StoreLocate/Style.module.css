@@ -1,0 +1,19 @@
+.heading {
+    padding-left: 8px;
+    color: #898989;
+    font-size: 11px;
+}
+
+.status {
+    color: #49BB5C;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 19px;
+}
+
+.location {
+    color: #00A1FF;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 19px;
+}

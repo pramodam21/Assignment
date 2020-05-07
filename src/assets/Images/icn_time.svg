@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="7px" viewBox="0 0 7 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>B63AA21F-C940-4F2E-BF52-0EE05E99D804@3x</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Change_location_old_design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Restaurant_screen" transform="translate(-150.000000, -254.000000)" fill="#FFFFFF">
+            <g id="res_name" transform="translate(16.000000, 220.000000)">
+                <g id="open_box" transform="translate(128.000000, 30.000000)">
+                    <path d="M9.5,4 C11.4380165,4 13,5.56198347 13,7.5 C13,9.43801653 11.4380165,11 9.5,11 C7.56198347,11 6,9.43801653 6,7.5 C6,5.56198347 7.56198347,4 9.5,4 Z M9.7892562,5.15702479 L9.7892562,7.38429752 L10.8595041,8.48347107 L10.4834711,8.85950413 L9.2107438,7.61570248 L9.2107438,5.15702479 L9.7892562,5.15702479 Z" id="icn_time"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

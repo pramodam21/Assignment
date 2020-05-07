@@ -1,0 +1,24 @@
+.container {
+    margin: 14px 9px 0px 16px;
+    padding: 10px;
+}
+
+.headingWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subHeading {
+    color: var(--subHeadigColor);
+    font-size: 12px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 226px;
+}
+
+.split {
+    padding: 0 14px;
+}
