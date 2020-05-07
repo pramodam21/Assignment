@@ -4,8 +4,15 @@
     font-size: 11px;
 }
 
-.data {
+.status {
     color: #49BB5C;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 19px;
+}
+
+.location {
+    color: #00A1FF;
     font-size: 12px;
     font-weight: 600;
     padding-left: 19px;

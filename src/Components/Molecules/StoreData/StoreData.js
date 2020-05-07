@@ -8,7 +8,7 @@ const StoreData = () => (
   <div className={Style.container}>
       <StoreLocate image={Time} heading="TIMINGS" data="Opens Now" />
       <span className={Style.split}></span>
-      <StoreLocate image={Map} heading="LOCATION" data="View Map" />
+      <StoreLocate cssClass image={Map} heading="LOCATION" data="View Map" />
   </div>
 );
 
