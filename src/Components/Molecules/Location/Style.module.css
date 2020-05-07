@@ -1,0 +1,41 @@
+.container {
+    margin: 0 16px;
+    box-sizing: border-box;
+    height: 64.15px;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+}
+
+.wrapper {
+    padding: 4px 12px;
+}
+
+.heading {
+    color: #6A6A6A;
+    font-size: 12px;
+}
+
+.pin {
+    display: flex;
+}
+
+.userLocation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    color: #2D2D2D;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+.button {
+     border: none;
+     background: none;
+     color: #EF3E42;
+     font-size: 14px;
+     font-weight: 600;
+     text-transform: uppercase;
+}
