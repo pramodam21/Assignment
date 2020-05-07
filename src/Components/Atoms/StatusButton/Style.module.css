@@ -1,0 +1,15 @@
+.button {
+    border-radius: 4px;
+    background-color: var(--buttonColor);
+    color: #FFFFFF;
+    border: none;
+}
+
+.buttonText {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 0 4px;
+}

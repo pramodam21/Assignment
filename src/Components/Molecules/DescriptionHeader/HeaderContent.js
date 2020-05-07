@@ -4,8 +4,10 @@ import Constants from "../../../contents.json";
 import Right from "../../../assets/Images/right_arrow.svg";
 import Time from "../../../assets/Images/icn_time.svg";
 import Money from "../../../assets/Images/icn_money.svg";
-import Scooter from '../../../assets/Images/icn_scooter.svg';
+import Scooter from "../../../assets/Images/icn_scooter.svg";
 import { Link } from "react-router-dom";
+import Button from "../../Atoms/StatusButton/Button";
+import Info from "../../Atoms/Info/Info";
 
 const HeaderContent = () => (
   <div className={Style.container}>
@@ -14,28 +16,19 @@ const HeaderContent = () => (
         <div className={Style.headingWrapper}>
           <h3 className={Style.heading}>{Constants.header.heading}</h3>
           <Link to="/storeInfo">
-          <img src={Right} alt="arrow" />
+            <img src={Right} alt="arrow" />
           </Link>
         </div>
         <div>
-          <span className={Style.subHeading}>{Constants.header.subHeading}</span>
+          <span className={Style.subHeading}>
+            {Constants.header.subHeading}
+          </span>
           <span className={Style.split}>|</span>
-          <button className={Style.button}>
-            <img src={Time} alt="time" />
-            <span className={Style.buttonText}>
-            {Constants.header.status}
-            </span>
-          </button>
+          <Button image={Time} status={Constants.header.status} />
         </div>
         <div className={Style.wrapper}>
-          <div className={Style.info}>
-            <img src={Money} alt="money" />
-            <span className={Style.infoContent}>{Constants.header.order}</span>
-          </div>
-          <div className={Style.info}>
-            <img src={Scooter} alt="scooter" />
-            <span className={Style.infoContent}>{Constants.header.time}</span>
-          </div>
+          <Info image={Money} info={Constants.header.order} />
+          <Info image={Scooter} info={Constants.header.time} />
         </div>
       </div>
     )}

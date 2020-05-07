@@ -1,0 +1,11 @@
+.info {
+    display: flex;
+    color: #898989;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 6px 0;
+}
+
+.infoContent {
+    padding: 0 7px;
+}
