@@ -13,7 +13,7 @@ const FoodItem = () => (
       <img src={Food} alt="food" />
       <div className={Style.content}>
         <h4 className={Style.heading}>New Chicken Maharaja Mac</h4>
-        <span className={Style.subHeading}>Burgers & Wraps</span>
+        <span className={Common.subHeading}>Burgers & Wraps</span>
         <div className={Style.buttonContainer}>
           <div className={Style.priceWrapper}>
             <span className={Style.price}>AED27.00</span>
